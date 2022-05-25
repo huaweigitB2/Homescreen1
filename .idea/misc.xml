@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/profilecolor.xml" value="0.1735" />
+        <entry key="app/src/main/res/drawable/radius.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_change_name.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_change_name2.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_edit_survey.xml" value="0.18125" />
+        <entry key="app/src/main/res/layout/activity_editsurvey.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/survey.xml" value="0.35625" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

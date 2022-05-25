@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_layouts"
+    android:orientation="vertical"
+    tools:context="com.huawei.neelavardhan.ChangeNameActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="296dp"
+        android:layout_height="522dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="@color/cardview_dark_background">
+
+
+        <EditText
+            android:id="@+id/newusername"
+            android:layout_width="251dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-130dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/white"
+            android:hint="@string/new_username"
+            android:inputType="text"
+            android:paddingLeft="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="Autofill,RtlHardcoded,RtlSymmetry,SpUsage,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/emailaddress"
+            android:layout_width="246dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-85dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/white"
+
+            android:hint="@string/email_address"
+            android:paddingLeft="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="Autofill,RtlHardcoded,RtlSymmetry,SpUsage,TextFields,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="246dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-42dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="@string/enter_your_number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="Autofill,RtlHardcoded,RtlSymmetry,SpUsage,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="248dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="243dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Date of birth"
+            android:inputType="date"
+            android:paddingLeft="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15dp"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TouchTargetSizeCheck" />
+
+        <AutoCompleteTextView
+            android:id="@+id/genderinput"
+            android:layout_width="248dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="286dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/white"
+            android:hint="Gender"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/profileinput"
+            android:layout_width="98dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            android:onClick="profile"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,UsingOnClickInXml,ImageContrastCheck" />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/radius"
+        android:backgroundTint="#020202"
+        android:onClick="save"
+        android:text="@string/apply_changes"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:iconTint="#FFFFFF"
+        tools:ignore="SpUsage" />
+</LinearLayout>

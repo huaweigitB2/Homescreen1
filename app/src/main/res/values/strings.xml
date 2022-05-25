@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Homescreen1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_name">Change Name</string>
+    <string name="Edit_survey">Edit Survey</string>
+    <string name="Apply_changes">Apply Changes</string>
+    <string name="title_activity_edit_survey">EditSurvey</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="new_username">New Username</string>
+    <string name="survey">Survey</string>
+    <string name="what_is_your_age">What is your age?</string>
+    <string name="disability">Disability</string>
+    <string name="apply_changes1">Apply Changes</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="apply_changes">Apply Changes</string>
+</resources>
